@@ -42,7 +42,7 @@
         <li class="menu-button"><a href="#">Home</a></li>
         <li class="menu-button"><a href="#work" v-smooth-scroll>Trabalhos</a></li>
         <li class="menu-button">
-          <a href="#testimonial" v-smooth-scroll>Hstória</a>
+          <a href="#testimonial" v-smooth-scroll>História</a>
         </li>
         <li class="menu-button"><a href="#about" v-smooth-scroll>Extra📚</a></li>
       </ul>
