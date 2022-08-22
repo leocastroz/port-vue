@@ -71,7 +71,7 @@
 
 
   <div class="banner-2 space-y-10 pb-20" id="work">
-    <h3 class="heading5 my-5">Trabalhos Recentes</h3>
+    <h3 class="heading5 my-5">// Trabalhos Recentes</h3>
     <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
         <h4 class="project-title item">Clone Linktree</h4>
