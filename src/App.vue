@@ -35,7 +35,7 @@
         :class="showMenu ? 'flex' : 'hidden'"
         class="flex-col items-end mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
       >
-        <li class="menu-button"><a href="#maestrias" v-smooth-scroll>Maestrias</a></li>
+        <li class="menu-button"><a href="#maestrias" v-smooth-scroll></a></li>
         <li class="menu-button"><a href="#work" v-smooth-scroll>Trabalhos</a></li>
         <li class="menu-button"><a href="#testimonial" v-smooth-scroll>História</a></li>
         <li class="menu-button"><a href="#about" v-smooth-scroll>Visão de trabalho</a></li>
