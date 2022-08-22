@@ -79,7 +79,7 @@
   </div>
 
   <div class="banner-2 space-y-10 pb-20" id="work">
-    <h3 class="heading3 my-5">Trabalhos Recentes</h3>
+    <h3 class="heading5 my-5">Trabalhos Recentes</h3>
     <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
         <h4 class="project-title item">Clone Linktree</h4>
@@ -131,7 +131,7 @@
 
     <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-        <h4 class="project-title item">GTA V FiveM</h4>
+        <h4 class="project-title item">GTAV - FiveM</h4>
         <p class="font-work_sans pr-12">
           GTA V é um jogo desenvolvido pela Rockstar Games. Atualmente o jogo 
           tem dois modelos, sendo o Online e o Offline. Este projeto tem por finalidade
@@ -255,12 +255,12 @@
 
   <div class="banner-2 md:flex items-center md:justify-evenly" id="about">
     <img
-      class="md:h-[500px] h-[400px] rounded-lg"
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuEwEQCKdlP7vBS1WKaChkPbxmBL_KsHOBA0caegYlJtCB-6sAyldtqG0Yg4UaCjCq8Ls&usqp=CAU"
+      class="md:h-[300px] h-[400px] rounded-lg"
+      src="../src/assets/programmer.png"
       alt="user image"
     />
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-2/2">
-      <h4 class="project-title item">Minha visão de trabalho?</h4>
+      <h4 class="project-title-1 item">Minha visão de trabalho?</h4>
       <p class="font-work_sans text-white text-justify">
         Acredito que encontrar soluções para os problemas e o "x" da questão. 
         De fato, sempre precisamos ser eficientes naquilo que estamos fazendo,
