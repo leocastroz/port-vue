@@ -35,6 +35,8 @@ e 10px de altura para a barra horizontal */
 .banner-2 {
   @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
   background-color: #7c54ff;
+background-image: linear-gradient(132deg, #00FF85 0%, #7c54ff 100%);
+
   
 }
 
@@ -62,18 +64,33 @@ e 10px de altura para a barra horizontal */
 
 }
 
-.title-name .sublime:hover{
-  color: red;
+.heading5 {
+  font-family: 'Fugaz One', cursive;
+  color: #242424;
+  @apply md:text-5xl text-xl;
 }
 
 
 .heading3 {
-  color: #7c54ff;
-  @apply md:text-5xl text-xl font-bold font-work_sans tracking-wide;
+  font-family: 'Fugaz One', cursive;
+  background: -webkit-linear-gradient(#00FF85, #5656FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @apply md:text-5xl text-xl;
 }
 
-.project-title {
-  @apply text-gray-700 text-3xl md:text-4xl font-work_sans tracking-wide font-bold;
+.project-title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.project-title-1 {
+  font-family: 'Fugaz One', cursive;
+  background: -webkit-linear-gradient(#000000, #7c54ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @apply  text-3xl md:text-4xl ;
 }
 
 .card {
@@ -97,12 +114,19 @@ e 10px de altura para a barra horizontal */
 
 .banner-2 .focus-job{
   font-family: 'Fugaz One', cursive;
-  color: #cabaff;
+  background: -webkit-linear-gradient(#000000, #7c54ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
+
 
 .banner-1 h2{
   font-size: 40px;
   font-family: 'Fugaz One', cursive;
+  background: -webkit-linear-gradient(#00FF85, #5656FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @layer utilities {
