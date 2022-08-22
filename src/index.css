@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,16 +37,33 @@ e 10px de altura para a barra horizontal */
   background-color: #7c54ff;
   
 }
-.bg-yellowis {
-  background-color: red;
-}
+
 .hello-button {
-  background-color: #76f9db;
+  background-color: #7c54ff;
+  color: #302650;
+  font-family: 'Fugaz One', cursive;
 }
 .menu-button {
-  @apply 3xl:text-2xl 2xl:text-2xl xl:text-xl lg:text-xl md:text-xl  font-bold font-work_sans hover:text-black;
-  color: #76f9db;
+  @apply 3xl:text-2xl 2xl:text-2xl xl:text-xl lg:text-xl md:text-xl ;
+  color: #aa91fc;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
   
+  
+}
+
+.title-name h4{
+  font-family: 'Fugaz One', cursive;
+  background: -webkit-linear-gradient(#00FF85, #5656FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+}
+
+.title-name .sublime:hover{
+  color: red;
 }
 
 
@@ -65,6 +84,7 @@ e 10px de altura para a barra horizontal */
 }
 
 .footer a{
+  
   margin: 0 3px;
   padding: 6px;
   background-color: #7c54ff;
@@ -75,9 +95,14 @@ e 10px de altura para a barra horizontal */
   background-color: #000;
 }
 
+.banner-2 .focus-job{
+  font-family: 'Fugaz One', cursive;
+  color: #cabaff;
+}
 
-.footer svg{
-
+.banner-1 h2{
+  font-size: 40px;
+  font-family: 'Fugaz One', cursive;
 }
 
 @layer utilities {
