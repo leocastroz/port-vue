@@ -197,7 +197,7 @@
               src="https://scontent.fcks1-1.fna.fbcdn.net/v/t1.6435-9/61728714_1217354208443906_7296813298878513152_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeF3hxeQasj45tyDAVhxYwy2zUvQqwsPCPnNS9CrCw8I-XUF3gHMmD0D5k5eMhxjqphg7ErP1PLSgp55MV6CL8fF&_nc_ohc=JY_EWvzIHvkAX8YvW-t&tn=4f5QxD8Wb7_ajWu-&_nc_ht=scontent.fcks1-1.fna&oh=00_AT89YNSDtSzgqbT4C1RDxUGKRosY1H4Exy1JhUio8TdTww&oe=631F4AB2"
               alt=""
             />
-            <div class="absolute inset-0 bg-gray-600 opacity-40"></div>
+            <div class="absolute inset-0 bg-gray-700 opacity-40"></div>
             <svg
               class="relative"
               width="100"
@@ -253,12 +253,18 @@
     </div>
   </div>
 
+
+  
+
   <div class="banner-2 md:flex items-center md:justify-evenly" id="about">
+  
+
     <img
-      class="md:h-[300px] h-[400px] rounded-lg"
-      src="../src/assets/programmer.png"
+      class="flutter"
+      src="https://user-images.githubusercontent.com/72839343/185977454-ab183161-6f52-45d5-9011-591d13b24d16.png"
       alt="user image"
     />
+   
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-2/2">
       <h4 class="project-title-1 item">Minha visão de trabalho?</h4>
       <p class="font-work_sans text-white text-justify">
