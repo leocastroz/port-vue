@@ -22,8 +22,8 @@ e 10px de altura para a barra horizontal */
   /* aqui é a alça da barra, que demonstra a altura que você está na página
   estou colocando uma cor azul clara nela*/
   ::-webkit-scrollbar-thumb {
-  background: #76f9db;
-  border: 2px solid #171717;
+  background: #3bf391;
+  border: 2px solid #000000;
   border-radius: 5px;
   }
 
@@ -73,7 +73,7 @@ background-image: linear-gradient(132deg, #00FF85 0%, #7c54ff 100%);
 
 .heading3 {
   font-family: 'Fugaz One', cursive;
-  background: -webkit-linear-gradient(#00FF85, #5656FF);
+  background: -webkit-linear-gradient(#00FF85, #7a32ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   @apply md:text-5xl text-xl;
@@ -87,9 +87,7 @@ background-image: linear-gradient(132deg, #00FF85 0%, #7c54ff 100%);
 
 .project-title-1 {
   font-family: 'Fugaz One', cursive;
-  background: -webkit-linear-gradient(#000000, #7c54ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #242424;
   @apply  text-3xl md:text-4xl ;
 }
 
@@ -114,9 +112,7 @@ background-image: linear-gradient(132deg, #00FF85 0%, #7c54ff 100%);
 
 .banner-2 .focus-job{
   font-family: 'Fugaz One', cursive;
-  background: -webkit-linear-gradient(#000000, #7c54ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #242424;
 }
 
 
@@ -133,4 +129,27 @@ background-image: linear-gradient(132deg, #00FF85 0%, #7c54ff 100%);
   .h-850 {
     height: 900px;
   }
+}
+
+
+@media (max-width: 600px){
+  .banner-2 .flutter{
+    margin: 0 auto;
+    max-width: 200px;
+  }
+}
+
+
+.banner-2 .flutter{
+  width: 400px;
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(-50px);
+    }
 }
