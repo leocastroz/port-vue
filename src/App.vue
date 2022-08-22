@@ -18,17 +18,13 @@
         <!-- Botão de menu -->
 
         <div @click="showMenu = !showMenu" class="flex md:hidden">
-          <button
-            type="button"
-            class="text-purple-600 hover:text-purple-600 focus:outline-none focus:text-purple-600"
-          >
+          <button type="button" class="text-purple-600 hover:text-purple-600 focus:outline-none focus:text-purple-600">
             <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
               <path
                 fill-rule="evenodd"
                 d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
               ></path>
             </svg>
-            
           </button>
         </div>
       </div>
@@ -39,11 +35,9 @@
         :class="showMenu ? 'flex' : 'hidden'"
         class="flex-col items-end mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
       >
-        <li class="menu-button"><a href="#">Home</a></li>
+        <li class="menu-button"><a href="#maestrias" v-smooth-scroll>Maestrias</a></li>
         <li class="menu-button"><a href="#work" v-smooth-scroll>Trabalhos</a></li>
-        <li class="menu-button">
-          <a href="#testimonial" v-smooth-scroll>Hstória</a>
-        </li>
+        <li class="menu-button"><a href="#testimonial" v-smooth-scroll>História</a></li>
         <li class="menu-button"><a href="#about" v-smooth-scroll>Visão de trabalho</a></li>
       </ul>
     </nav>
@@ -52,22 +46,12 @@
 
     <div class="flex items-center title-name">
       <div class="w-11/12 space-y-5 md:space-y-10">
-        <h3
-          class="hello-button text-black-700 w-fit md:py-3 md:px-5 py-1 px-2 rounded-lg 3xl:text-3xl 2xl:text-xl lg:text-xl md:text-md text-sm font-semibold font-work_sans"
-        >
+        <h3 class="hello-button text-black-700 w-fit md:py-3 md:px-5 py-1 px-2 rounded-lg 3xl:text-3xl 2xl:text-xl lg:text-xl md:text-md text-sm font-semibold font-work_sans">
           ☕ Bem-vindo #user
         </h3>
-        <h4
-          class="3xl:text-8xl 2xl:text-7xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl text-xl "
-        >
-          Sou
-          <a
-            href="https://www.linkedin.com/in/leoscastro/"
-            target="_blank"
-            class="sublime"
-          >
-            Leonardo Castro</a
-          ><br />Desenvolvedor Front-end e Design Ui-Ux
+        <h4 class="3xl:text-8xl 2xl:text-7xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl text-xl">Sou Leonardo Castro
+          <br />
+          Desenvolvedor Front-end e Design Ui-Ux
         </h4>
       </div>
 
@@ -77,6 +61,14 @@
       </div>
     </div>
   </div>
+
+
+  <!-- novo title 
+  <div class="linguagens" id="maestrias">
+
+  </div>
+ -->
+
 
   <div class="banner-2 space-y-10 pb-20" id="work">
     <h3 class="heading5 my-5">Trabalhos Recentes</h3>
@@ -100,7 +92,7 @@
       </div>
       <div class="card-image bg-green-100">
         <img
-          class="object-cover w-full h-72 md:h-96 rounded-lg"
+          class="object-cover w-full h-72 md:h-96"
           src="https://img.olhardigital.com.br/wp-content/uploads/2021/05/Linktree-e1622124166688.png"
         />
       </div>
@@ -123,7 +115,7 @@
       </div>
       <div class="card-image">
         <img
-          class="object-cover w-full h-48 md:h-96 rounded-lg"
+          class="object-cover w-full h-48 md:h-96"
           src="http://www.valedoamazonas.com.br/wp-content/uploads/2015/08/DSC00137-e1439250612569-1000x450.jpg"
         />
       </div>
@@ -148,7 +140,7 @@
       </div>
       <div class="card-image">
         <img
-          class="object-cover w-full h-48 md:h-96 rounded-lg"
+          class="object-cover w-full h-48 md:h-96"
           src="https://pbs.twimg.com/media/CJZxBNuUAAE1DxC.png"
         />
       </div>
@@ -169,9 +161,9 @@
           HTML 5 | CSS 3 | JS | API | JQUERY | PHP | MYSQL | BOOTSTRAP | UI-UX | SCRUM |
         </button>
       </div>
-      <div class="card-image bg-purple-600">
+      <div class="card-image">
         <img
-          class="object-cover w-full h-48 md:h-96 rounded-lg"
+          class="object-cover w-full h-48 md:h-96"
           src="https://user-images.githubusercontent.com/72839343/184925462-a15e69dc-de87-40ee-8c39-95452c84ddce.PNG"
         />
       </div>
@@ -261,7 +253,7 @@
 
     <img
       class="flutter"
-      src="https://i.pinimg.com/564x/22/b5/7a/22b57a55de44e683e258921e4495b358.jpg  "
+      src="https://user-images.githubusercontent.com/72839343/185977454-ab183161-6f52-45d5-9011-591d13b24d16.png"
       alt="user image"
     />
    
