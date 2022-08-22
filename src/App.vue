@@ -42,15 +42,15 @@
         <li class="menu-button"><a href="#">Home</a></li>
         <li class="menu-button"><a href="#work" v-smooth-scroll>Trabalhos</a></li>
         <li class="menu-button">
-          <a href="#testimonial" v-smooth-scroll>História</a>
+          <a href="#testimonial" v-smooth-scroll>Hstória</a>
         </li>
-        <li class="menu-button"><a href="#about" v-smooth-scroll>Extra📚</a></li>
+        <li class="menu-button"><a href="#about" v-smooth-scroll>Visão de trabalho</a></li>
       </ul>
     </nav>
 
     <!-- Final Navbar -->
 
-    <div class="flex items-center">
+    <div class="flex items-center title-name">
       <div class="w-11/12 space-y-5 md:space-y-10">
         <h3
           class="hello-button text-black-700 w-fit md:py-3 md:px-5 py-1 px-2 rounded-lg 3xl:text-3xl 2xl:text-xl lg:text-xl md:text-md text-sm font-semibold font-work_sans"
@@ -58,13 +58,13 @@
           ☕ Bem-vindo #user
         </h3>
         <h4
-          class="3xl:text-8xl 2xl:text-7xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl text-xl font-medium leading-tight text-violet-500"
+          class="3xl:text-8xl 2xl:text-7xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl text-xl "
         >
           Sou
           <a
             href="https://www.linkedin.com/in/leoscastro/"
             target="_blank"
-            class="text-green hover:underline text-blue-300"
+            class="sublime"
           >
             Leonardo Castro</a
           ><br />Desenvolvedor Front-end e Design Ui-Ux
@@ -185,6 +185,7 @@
         Conteúdo postado diretamente por mim!
       </p>
     </div>
+
     <div class="max-w-6xl mx-auto px-8 py-16">
       <div class="relative">
         <div class="relative lg:flex rounded-lg shadow-2xl overflow-hidden">
@@ -241,38 +242,13 @@
             </div>
           </div>
         </div>
-        <!--
-        <div class="absolute inset-y-0 left-0 lg:flex lg:items-center">
-          <button
-            class="mt-24 lg:mt-0 -ml-6 h-12 w-12 rounded-full bg-white p-3 shadow-lg"
-          >
-            <svg
-              class="h-full w-full text-indigo-900"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M5.41 11H21a1 1 0 0 1 0 2H5.41l5.3 5.3a1 1 0 0 1-1.42 1.4l-7-7a1 1 0 0 1 0-1.4l7-7a1 1 0 0 1 1.42 1.4L5.4 11z"
-              />
-            </svg>
-          </button>
-        </div>
-        <div class="absolute inset-y-0 right-0 lg:flex lg:items-center">
-          <button
-            class="mt-24 lg:mt-0 -mr-6 h-12 w-12 rounded-full bg-white p-3 shadow-lg"
-          >
-            <svg
-              class="h-full w-full text-indigo-900"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M18.59 13H3a1 1 0 0 1 0-2h15.59l-5.3-5.3a1 1 0 1 1 1.42-1.4l7 7a1 1 0 0 1 0 1.4l-7 7a1 1 0 0 1-1.42-1.4l5.3-5.3z"
-              />
-            </svg>
-          </button>
-        </div>
-        -->
+
+        
+
+        
+        
+
+        
       </div>
     </div>
   </div>
@@ -280,7 +256,7 @@
   <div class="banner-2 md:flex items-center md:justify-evenly" id="about">
     <img
       class="md:h-[500px] h-[400px] rounded-lg"
-      src="https://c.tenor.com/YNevMW28IysAAAAi/hacker-friend.gif"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuEwEQCKdlP7vBS1WKaChkPbxmBL_KsHOBA0caegYlJtCB-6sAyldtqG0Yg4UaCjCq8Ls&usqp=CAU"
       alt="user image"
     />
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-2/2">
@@ -301,15 +277,15 @@
         Sempre gosto de passar minha visão, dar minha opnião sobre o que estamos 
         construindo e qual seria a melhor forma de encontrarmos a solução. 
       </p>
-      <button class="text-black font-bold text-1xl tracking-wider">
-        Volte sempre &rarr; #user
+      <button class="focus-job  text-1xl ">
+        Focus on work &rarr; #user
       </button>
     </div>
   </div>
 
   <div class="banner-1 flex h-full items-center">
     <div class="w-7/12 p-12">
-      <h2 class="text-purple-500 md:text-6xl text-2xl mb-5 font-bold">
+      <h2 class="text-purple-500 md:text-6xl text-2xl mb-5 ">
         Vamos trabalhar juntos e deixar tudo comentado e limpo!
       </h2>
       <a class="none text-2xl text-white"
