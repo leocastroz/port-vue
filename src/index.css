@@ -32,6 +32,96 @@ e 10px de altura para a barra horizontal */
   color: #00FF85;
 }
 
+
+/* MENU RESPONSIVO */
+
+
+
+
+nav div #checkbox-menu{
+  position: absolute;
+  opacity: 0;
+}
+
+nav div label{
+  cursor: pointer;
+  position: relative;
+  display: block;
+  height: 22px;
+  width: 30px;
+  margin-top: -15px;
+}
+
+nav div label span{
+  position: absolute;
+  display: block;
+  height: 3px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #7c54ff;
+  background-image: linear-gradient(45deg, #00FF85 0%, #7c54ff 100%);
+  transition: 0.25s ease-in-out;
+}
+
+nav div label span:nth-child(1){
+  top: 0;
+}
+
+nav div label span:nth-child(2){
+  top: 8px;
+}
+
+nav div label span:nth-child(3){
+  top: 16px;
+}
+
+nav div #checkbox-menu:checked + label span:nth-child(1){
+  transform: rotate(-45deg);
+  top: 8px;
+}
+
+nav div #checkbox-menu:checked + label span:nth-child(2){
+  opacity: 0;
+}
+
+nav div #checkbox-menu:checked + label span:nth-child(3){
+  transform: rotate(45deg);
+  top: 8px;
+}
+
+.menu-box{
+  width: 100%;
+  transition-duration: 2s;
+  margin-top: -30px;
+  padding-bottom: 10px;
+}
+
+.menu-box li a{
+  background: -webkit-linear-gradient(#cbaeff, #00FF85);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+nav div img{
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .banner-1 {
   @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
   background-image: url('../src/assets/black_plate.gif');
@@ -40,7 +130,7 @@ e 10px de altura para a barra horizontal */
 .banner-2 {
   @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
   background-color: #7c54ff;
-background-image: linear-gradient(132deg, #00FF85 0%, #7c54ff 100%);
+  background-image: linear-gradient(132deg, #00FF85 0%, #7c54ff 100%);
 
   
 }
@@ -107,6 +197,7 @@ background-image: linear-gradient(132deg, #00FF85 0%, #7c54ff 100%);
   margin: 0 3px;
   padding: 6px;
   background-color: #7c54ff;
+  background-image: linear-gradient(45deg, #00FF85 0%, #5724ff 100%);
   transition-delay: 0.05s;
 }
 
