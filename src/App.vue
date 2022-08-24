@@ -3,37 +3,36 @@
 
     <!-- NavBar -->
 
-    <nav
-      class="container px-6 mx-auto md:flex md:justify-between md:items-center"
-    >
+    <nav class="container px-6 mx-auto md:flex md:justify-between md:items-center">
       <div class="flex items-center justify-between">
+        <!-- LOGO SITE -->
         <div class="relative w-20 h-20">
-          <img
-          class="w-18 h-18"
-            src="https://user-images.githubusercontent.com/72839343/184806880-49688d28-0fc0-4caf-9159-fb9cf863db6f.png"
-            alt="user image"
-          />
+          <img class="w-18 h-18" src="https://user-images.githubusercontent.com/72839343/184806880-49688d28-0fc0-4caf-9159-fb9cf863db6f.png" alt="LOGO SITE"/>
         </div>
+        <!-- LOGO SITE -->
+
+
 
         <!-- Botão de menu -->
 
-        <div @click="showMenu = !showMenu" class="flex md:hidden">
-          <button type="button" class="text-purple-600 hover:text-purple-600 focus:outline-none focus:text-purple-600">
-            <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
-              <path
-                fill-rule="evenodd"
-                d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-              ></path>
-            </svg>
-          </button>
+         <div @click="showMenu = !showMenu" class="flex md:hidden nav-icon">
+          
+            <input @click="showMenu = !showMenu" type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
         </div>
       </div>
+
+     
 
       <!-- Menu móvel aberto: "bloquear", Menu fechado: "oculto" -->
 
       <ul
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col items-end mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
+        class="menu-box flex-col items-end mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
       >
         <li class="menu-button"><a href="#maestrias" v-smooth-scroll></a></li>
         <li class="menu-button"><a href="#work" v-smooth-scroll>Trabalhos</a></li>
@@ -71,7 +70,7 @@
 
 
   <div class="banner-2 space-y-10 pb-20" id="work">
-    <h3 class="heading5 my-5">// Trabalhos Recentes</h3>
+    <h3 class="heading5 my-5">Trabalhos Recentes</h3>
     <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
         <h4 class="project-title item">Clone Linktree</h4>
