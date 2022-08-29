@@ -81,7 +81,7 @@
           de ser clara a ideia de desenvolver algo semelhente ao original.
         </p>
         <br>
-        <strong class="text-black font-medium">Acesse &rarr;</strong><a  href="https://clone-linktree-nu.vercel.app/" target="_blank" class="text-purple-500 font-medium"> clone-linktree-nu.vercel.app 👁‍🗨</a> 
+        <strong class="text-black font-medium">Acesse &rarr;</strong><a  href="https://clone-linktree-nu.vercel.app/" target="_blank" class="text-purple-500 font-medium">www.clonelinktree.com.br/ 👁‍🗨</a> 
 
         <button class="text-violet-600 font-bold text-1xl ">
           HTML 5 | CSS 3 | JS | VUE.JS | UI-UX
@@ -96,6 +96,30 @@
         />
       </div>
     </div>
+
+    <div class="card">
+      <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
+        <h4 class="project-title item">CS - FireClub</h4>
+        <p class="font-work_sans pr-12">
+          Desenvolvi uma pequena loja funcional utilizando bastante "javascript",
+          com funcionalidades semelhante a uma loja virtual para comprar algum 
+          item. Também aproveitei e já desenvolvi a responsividade de todo site
+          utilizando somente css puro.
+        </p>
+        <br>
+        <strong class="text-black font-medium">Acesse &rarr;</strong><a  href="https://leocastroz.github.io/CS---FireClub/" target="_blank" class="text-purple-500 font-medium">www.csfireclub.com.br/ 👁‍🗨</a> 
+         <button class="text-violet-600 font-bold text-1xl ">
+          HTML 5 | CSS 3 | JS | UI-UX 
+        </button> 
+      </div>
+      <div class="card-image">
+        <img
+          class="object-cover w-full h-48 md:h-96"
+          src="https://i.ytimg.com/vi/3LFL2zO8zwI/sddefault.jpg"
+        />
+      </div>
+    </div>
+
 
     <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
