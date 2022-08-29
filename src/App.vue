@@ -139,7 +139,7 @@
       <div class="card-image">
         <img
           class="object-cover w-full h-48 md:h-96"
-          src="http://www.valedoamazonas.com.br/wp-content/uploads/2015/08/DSC00142-e1439250975635-1000x450.jpg"
+          src="https://technibus.com.br/wp-content/uploads/2021/04/vale-amazonas-Marcopolo.jpg"
         />
       </div>
     </div>
