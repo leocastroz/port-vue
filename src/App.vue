@@ -45,14 +45,15 @@
 
     <div class="flex items-center title-name">
       <div class="w-11/12 space-y-5 md:space-y-10">
-        <h3 class="hello-button text-black-700 w-fit md:py-3 md:px-5 py-1 px-2 rounded-lg 3xl:text-3xl 2xl:text-xl lg:text-xl md:text-md text-sm font-semibold font-work_sans">
-          ☕ Bem-vindo #user
+        <h3 class="hello-button  w-fit md:py-3 md:px-5 py-1 px-2 rounded-lg 3xl:text-3xl 2xl:text-xl lg:text-xl md:text-md text-sm font-semibold">
+          Doar um café &rarr; 
         </h3>
         <h4 class="3xl:text-8xl 2xl:text-7xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl text-xl">Sou Leonardo Castro
           <br />
           Desenvolvedor Front-end e Design Ui-Ux
         </h4>
       </div>
+      
 
       <div class="w-10/12 flex justify-end">
         <img
@@ -62,11 +63,106 @@
   </div>
 
 
-  <!-- novo title 
-  <div class="linguagens" id="maestrias">
 
+  <div class="linguagens" id="maestrias">
+    <svg width="52" height="12" viewBox="0 0 52 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8.12399 3.87599L12 6.00277L8.12399 8.12402L5.99722 12L3.87598 8.12402L0 6.00277L3.87598 3.87599L5.99722 0L8.12399 3.87599Z" fill="#8257E6"></path>
+      <path d="M28.124 3.87599L32 6.00277L28.124 8.12402L25.9972 12L23.876 8.12402L20 6.00277L23.876 3.87599L25.9972 0L28.124 3.87599Z" fill="#5AA2CB"></path>
+      <path d="M48.124 3.87599L52 6.00277L48.124 8.12402L45.9972 12L43.876 8.12402L40 6.00277L43.876 3.87599L45.9972 0L48.124 3.87599Z" fill="#35E8B3"></path>
+      </svg>
+    <h1>Habilidades pessoais</h1>
+    <div class="container-box">
+
+      <div class="item-01">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.1672 5V8C14.1257 8.50487 14.4965 8.94987 15.0006 9H21.6672C22.1713 8.94987 22.5422 8.50487 22.5006 8V5M13.332 35H11.6654C9.82442 35 8.33203 33.5076 8.33203 31.6667V8.33333C8.33203 6.49238 9.82442 5 11.6654 5H24.9987C26.8396 5 28.332 6.49238 28.332 8.33333V21.6667" stroke="url(#paint0_linear_8428_17866)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M23.3333 34.9987L20 31.6654L23.3333 28.332" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M28.332 28.332L31.6654 31.6654L28.332 34.9987" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <defs>
+        <linearGradient id="paint0_linear_8428_17866" x1="6.97744" y1="10.8595" x2="34.4086" y2="25.4723" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#05f7ff"></stop>
+        <stop offset="1" stop-color="#3939fc"></stop>
+        </linearGradient>
+        </defs>
+        </svg>
+
+        <p>100% de responsividade para smartphones</p>
+      </div>
+
+      <div class="item-01">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M24.168 34.1667V33.49C24.1735 31.5648 25.7328 30.0055 27.658 30H33.178C35.1032 30.0055 36.6625 31.5648 36.668 33.49V34.1667C36.668 34.6269 36.2949 35 35.8346 35H25.0013C24.5411 35 24.168 34.6269 24.168 34.1667Z" stroke="url(#paint0_linear_8428_17889)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M27.2089 23.3993C26.8049 21.9514 27.4199 20.4122 28.7105 19.6415C30.0011 18.8707 31.6479 19.0592 32.731 20.1016C33.8141 21.144 34.0655 22.7823 33.3448 24.1015C32.6241 25.4207 31.1096 26.0942 29.6472 25.7459C28.4683 25.4651 27.5347 24.5666 27.2089 23.3993Z" stroke="url(#paint1_linear_8428_17889)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.33203 30.8346V30.158C3.33752 28.2328 4.89684 26.6735 6.82203 26.668H12.342C14.2672 26.6735 15.8265 28.2328 15.832 30.158V30.8346C15.832 31.2949 15.4589 31.668 14.9987 31.668H4.16536C3.70513 31.668 3.33203 31.2949 3.33203 30.8346Z" stroke="url(#paint2_linear_8428_17889)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.37687 20.0672C5.97282 18.6193 6.58788 17.0801 7.87849 16.3094C9.16909 15.5387 10.8159 15.7272 11.899 16.7695C12.9821 17.8119 13.2335 19.4503 12.5128 20.7695C11.792 22.0886 10.2775 22.7622 8.81521 22.4139C7.63627 22.1331 6.70262 21.2346 6.37687 20.0672Z" stroke="url(#paint3_linear_8428_17889)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M28.3333 10.0007C28.3333 13.6825 25.3486 16.6673 21.6667 16.6673C17.9848 16.6673 15 13.6825 15 10.0007C15 6.31875 17.9848 3.33398 21.6667 3.33398C25.3486 3.33398 28.3333 6.31875 28.3333 10.0007Z" stroke="url(#paint4_linear_8428_17889)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M23.9091 8.67969L21.1091 11.478L19.4258 9.79969" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <defs>
+        <linearGradient id="paint0_linear_8428_17889" x1="1.0742" y1="9.51884" x2="35.4479" y2="38.434" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#05f7ff"></stop>
+        <stop offset="1" stop-color="#3939fc"></stop>
+        </linearGradient>
+        <linearGradient id="paint1_linear_8428_17889" x1="1.0742" y1="9.51884" x2="35.4479" y2="38.434" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#05f7ff"></stop>
+        <stop offset="1" stop-color="#3939fc"></stop>
+        </linearGradient>
+        <linearGradient id="paint2_linear_8428_17889" x1="1.0742" y1="9.51884" x2="35.4479" y2="38.434" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#05f7ff"></stop>
+        <stop offset="1" stop-color="#3939fc"></stop>
+        </linearGradient>
+        <linearGradient id="paint3_linear_8428_17889" x1="1.0742" y1="9.51884" x2="35.4479" y2="38.434" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#05f7ff"></stop>
+        <stop offset="1" stop-color="#3939fc"></stop>
+        </linearGradient>
+        <linearGradient id="paint4_linear_8428_17889" x1="1.0742" y1="9.51884" x2="35.4479" y2="38.434" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#05f7ff"></stop>
+        <stop offset="1" stop-color="#3939fc"></stop>
+        </linearGradient>
+        </defs>
+        </svg>
+
+        <p>Trabalho em equipe com metodologias ágeis</p>
+        
+      </div>
+
+      <div class="item-01">
+
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.2942 27.3738C14.6847 27.7643 15.3179 27.7643 15.7084 27.3738C16.0989 26.9832 16.0989 26.3501 15.7084 25.9596L14.2942 27.3738ZM11.668 23.3333L10.9609 22.6262C10.7733 22.8138 10.668 23.0681 10.668 23.3333C10.668 23.5985 10.7733 23.8529 10.9609 24.0404L11.668 23.3333ZM15.7084 20.7071C16.0989 20.3166 16.0989 19.6834 15.7084 19.2929C15.3179 18.9024 14.6847 18.9024 14.2942 19.2929L15.7084 20.7071ZM25.7071 19.2929C25.3166 18.9024 24.6834 18.9024 24.2929 19.2929C23.9024 19.6834 23.9024 20.3166 24.2929 20.7071L25.7071 19.2929ZM28.3333 23.3333L29.0404 24.0404C29.431 23.6499 29.431 23.0168 29.0404 22.6262L28.3333 23.3333ZM24.2929 25.9596C23.9024 26.3501 23.9024 26.9832 24.2929 27.3738C24.6834 27.7643 25.3166 27.7643 25.7071 27.3738L24.2929 25.9596ZM7 6H33V4H7V6ZM34 7V33H36V7H34ZM33 34H7V36H33V34ZM6 33V7H4V33H6ZM7 34C6.44772 34 6 33.5523 6 33H4C4 34.6569 5.34315 36 7 36V34ZM34 33C34 33.5523 33.5523 34 33 34V36C34.6569 36 36 34.6569 36 33H34ZM33 6C33.5523 6 34 6.44772 34 7H36C36 5.34315 34.6569 4 33 4V6ZM7 4C5.34315 4 4 5.34315 4 7H6C6 6.44772 6.44772 6 7 6V4ZM35 10.6673H5V12.6673H35V10.6673ZM15.7084 25.9596L12.3751 22.6262L10.9609 24.0404L14.2942 27.3738L15.7084 25.9596ZM12.3751 24.0404L15.7084 20.7071L14.2942 19.2929L10.9609 22.6262L12.3751 24.0404ZM24.2929 20.7071L27.6262 24.0404L29.0404 22.6262L25.7071 19.2929L24.2929 20.7071ZM27.6262 22.6262L24.2929 25.9596L25.7071 27.3738L29.0404 24.0404L27.6262 22.6262Z" fill="url(#paint0_linear_8428_17882)"></path>
+        <path d="M21.294 18.334L18.5156 28.334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <defs>
+        <linearGradient id="paint0_linear_8428_17882" x1="2.96811" y1="10.8595" x2="35.2069" y2="36.6203" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#05f7ff"></stop>
+        <stop offset="1" stop-color="#3939fc"></stop>
+        </linearGradient>
+        </defs>
+        </svg>
+        
+      <p>Desenvolvimento web e experiência Ui-Ux</p>
+
+      </div>
+
+      <div class="item-01">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10.21 23L5 28.3333L9.16667 30.8333L11.6667 35L18.165 28.175M21.8359 28.175L28.3343 35L30.8343 30.8333L35.0009 28.3333L29.7909 23M28.2483 8.41709C32.8044 12.9732 32.8044 20.3601 28.2483 24.9162C23.6922 29.4724 16.3052 29.4724 11.7491 24.9162C7.193 20.3601 7.193 12.9732 11.7491 8.41709C16.3052 3.86097 23.6922 3.86097 28.2483 8.41709Z" stroke="url(#paint0_linear_8428_17874)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9993 20.9735L22.9943 22.5468C23.5777 22.8535 24.2593 22.3585 24.1477 21.7085L23.576 18.3735L25.9993 16.0135C26.471 15.5535 26.211 14.7518 25.5593 14.6568L22.211 14.1702L20.7143 11.1352C20.4227 10.5435 19.581 10.5435 19.2893 11.1352L17.7927 14.1702L14.4427 14.6585C13.791 14.7535 13.531 15.5552 14.0027 16.0152L16.426 18.3752L15.8543 21.7102C15.7427 22.3602 16.4243 22.8552 17.0077 22.5485L20.0027 20.9752H19.9993V20.9735Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <defs>
+        <linearGradient id="paint0_linear_8428_17874" x1="2.96805" y1="10.8595" x2="35.2071" y2="36.6213" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#05f7ff"></stop>
+        <stop offset="1" stop-color="#3939fc"></stop>
+        </linearGradient>
+        </defs>
+        </svg>
+        
+
+        <p>Entregas dentro do prazo para usuários</p>
+      </div>
+    </div>
   </div>
- -->
+
+
+
+
 
 
   <div class="banner-2 space-y-10 pb-20" id="work">
@@ -193,8 +289,13 @@
     </div>
   </div>
 
-  <div class="banner-1" id="testimonial">
+  <div class="banner-2" id="testimonial">
     <div class="space-y-4 grid place-items-center mt-5">
+      <svg width="52" height="12" viewBox="0 0 52 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8.12399 3.87599L12 6.00277L8.12399 8.12402L5.99722 12L3.87598 8.12402L0 6.00277L3.87598 3.87599L5.99722 0L8.12399 3.87599Z" fill="#8257E6"></path>
+      <path d="M28.124 3.87599L32 6.00277L28.124 8.12402L25.9972 12L23.876 8.12402L20 6.00277L23.876 3.87599L25.9972 0L28.124 3.87599Z" fill="#5AA2CB"></path>
+      <path d="M48.124 3.87599L52 6.00277L48.124 8.12402L45.9972 12L43.876 8.12402L40 6.00277L43.876 3.87599L45.9972 0L48.124 3.87599Z" fill="#35E8B3"></path>
+      </svg>
       <h3 class="heading3 text-purple-900">Escrevendo minha história</h3>
       <p class="font-work_sans text-white font-semibold leading-relaxed">
         Conteúdo postado diretamente por mim!
@@ -205,51 +306,33 @@
       <div class="relative">
         <div class="relative lg:flex rounded-lg shadow-2xl overflow-hidden">
           <div
-            class="h-56 lg:h-auto lg:w-5/12 relative flex items-center justify-center"
+            class="h-56 lg:h-auto lg:w-5/12 relative flex items-center justify-center negrafy"
           >
             <img
               class="absolute h-full w-full object-cover"
-              src="https://scontent.fcks1-1.fna.fbcdn.net/v/t1.6435-9/61728714_1217354208443906_7296813298878513152_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeF3hxeQasj45tyDAVhxYwy2zUvQqwsPCPnNS9CrCw8I-XUF3gHMmD0D5k5eMhxjqphg7ErP1PLSgp55MV6CL8fF&_nc_ohc=JY_EWvzIHvkAX8YvW-t&tn=4f5QxD8Wb7_ajWu-&_nc_ht=scontent.fcks1-1.fna&oh=00_AT89YNSDtSzgqbT4C1RDxUGKRosY1H4Exy1JhUio8TdTww&oe=631F4AB2"
+              src="https://user-images.githubusercontent.com/72839343/189807059-bfa2b7b0-18ed-4a6f-bc75-ce2e02953449.png"
               alt=""
             />
-            <div class="absolute inset-0 bg-gray-700 opacity-40"></div>
-            <svg
-              class="relative"
-              width="100"
-              height="50"
-              viewBox="0 0 200 120"
-            >
-              <path
-                fill="#fff"
-                fill-rule="evenodd"
-                d="M63.75 75.24l2.5-5.93c2.7 2.05 6.3 3.13 9.85 3.13 2.61 0 4.27-1.03 4.27-2.6-.04-4.37-15.7-.95-15.82-11.9-.04-5.58 4.8-9.86 11.66-9.86 4.08 0 8.16 1.03 11.06 3.38l-2.34 6.05c-2.66-1.73-5.97-2.97-9.12-2.97-2.13 0-3.55 1.03-3.55 2.36.04 4.28 15.82 1.94 15.98 12.4 0 5.7-4.72 9.69-11.5 9.69-4.96 0-9.52-1.2-12.99-3.75zm96.01-8.08a7.16 7.16 0 0 1-8.11 3.5 7.35 7.35 0 0 1-5.38-7.13c0-3.34 2.2-6.27 5.38-7.12 3.16-.85 6.5.58 8.11 3.5l6.9-3.93a15.02 15.02 0 0 0-17.03-7.42 15.42 15.42 0 0 0-11.33 14.97c0 7.04 4.66 13.2 11.33 14.97a15.02 15.02 0 0 0 17.04-7.43l-6.9-3.9zM91.71 35.25h8.64v43.16h-8.64V35.25zm78.34 0v43.16h8.65V65.48l10.25 12.93H200l-13.03-15.37 12.06-14.34h-10.58l-9.76 11.9V35.25h-8.64zm-43.82 31.1a8.14 8.14 0 0 1-6.83 3.56 7.24 7.24 0 0 1-7.33-7.16 7.24 7.24 0 0 1 7.33-7.15 8.1 8.1 0 0 1 6.83 3.67v7.08zm0-18v3.4c-1.43-2.36-5-4-8.72-4-7.7 0-13.76 6.64-13.76 14.96 0 8.33 6.07 15.04 13.76 15.04 3.73 0 7.3-1.63 8.72-4v3.4H135v-28.8h-8.77zM10.53 66.4A5.32 5.32 0 0 1 5.3 71.8 5.32 5.32 0 0 1 .04 66.4a5.32 5.32 0 0 1 5.25-5.38h5.25v5.38zm2.63 0a5.32 5.32 0 0 1 5.25-5.38c2.9 0 5.25 2.4 5.25 5.38v13.46a5.32 5.32 0 0 1-5.25 5.39 5.32 5.32 0 0 1-5.25-5.39V66.4zm5.26-21.63a5.32 5.32 0 0 1-5.25-5.38A5.32 5.32 0 0 1 18.42 34c2.9 0 5.25 2.41 5.25 5.39v5.38h-5.25zm0 2.74c2.9 0 5.25 2.41 5.25 5.39a5.32 5.32 0 0 1-5.25 5.38H5.25A5.32 5.32 0 0 1 0 52.9a5.32 5.32 0 0 1 5.25-5.39h13.17zm21.03 5.39a5.32 5.32 0 0 1 5.25-5.39c2.9 0 5.25 2.41 5.25 5.39a5.32 5.32 0 0 1-5.25 5.38h-5.25V52.9zm-2.62 0a5.32 5.32 0 0 1-5.25 5.38 5.32 5.32 0 0 1-5.25-5.38V39.39A5.32 5.32 0 0 1 31.58 34c2.9 0 5.25 2.41 5.25 5.39v13.5zm-5.25 21.58c2.9 0 5.25 2.41 5.25 5.38a5.32 5.32 0 0 1-5.25 5.39 5.32 5.32 0 0 1-5.25-5.39v-5.38h5.25zm0-2.7a5.32 5.32 0 0 1-5.25-5.38 5.32 5.32 0 0 1 5.25-5.38h13.17c2.9 0 5.25 2.4 5.25 5.38a5.32 5.32 0 0 1-5.25 5.39H31.58z"
-              />
-            </svg>
+            <div class="absolute inset-0 bg-purple-700 opacity-10"></div>
+            
           </div>
-          <div class="relative lg:w-7/12 bg-white">
-            <svg
-              class="absolute h-full text-white w-24 -ml-12"
-              fill="currentColor"
-              viewBox="0 0 100 100"
-              preserveAspectRatio="none"
-            >
-              <polygon points="50,0 100,0 50,100 0,100" />
-            </svg>
+          <div class="relative lg:w-8/12 bg-me">
+            
             <div
-              class="relative py-12 lg:py-24 px-8 lg:px-16 text-gray-700 leading-relaxed"
+              class="relative py-12 lg:py-24 px-8 lg:px-16 text-blue-400 leading-relaxed"
             >
               <p>
-                <strong class="text-black font-medium"> Desenvolvedor de software</strong>
-                com 3 anos de experiência na função de freelancer. Trabalhando com  <strong class="text-black font-medium">HTML,CSS e JS.</strong>  2 anos e meio de experiência com <strong class="text-black font-medium">Vue.JS e Node.JS.</strong> Além disso, também trabalho com <strong class="text-black font-medium">Design UI | UX</strong> utilizando Figma, ademais gosto de contribuir em canais de voz como “Discord” tirando dúvidas de alguns devs. Também gosto de utilizar plataforma para versionamento de código: GIT, GitHub e Vercel. <br><br>
+                <strong class="text-white font-medium"> Desenvolvedor de software</strong>
+                com 3 anos de experiência na função de freelancer. Trabalhando com  <strong class="text-white font-medium">HTML,CSS e JS.</strong>  2 anos e meio de experiência com <strong class="text-white font-medium">Vue.JS e Node.JS.</strong> Além disso, também trabalho com <strong class="text-white font-medium">Design UI | UX</strong> utilizando Figma, ademais gosto de contribuir em canais de voz como “Discord” tirando dúvidas de alguns devs. Também gosto de utilizar plataforma para versionamento de código: GIT, GitHub e Vercel. <br><br>
 
-                <strong class="text-black font-medium" style="font-size:12px">MAESTRIAS &rarr;</strong><a href="/" class="text-gray-500 font-medium" style="font-size:12px"> HTML | CSS | JS | PHP | C++ | NODE.JS | VUE.JS | BOOTSTRAP | GIT | GITHUB | UI-UX | CLEAN CODE | PATTERN | KANBAN | SCRUM </a> 
+                <strong class="text-white font-medium" style="font-size:12px">MAESTRIAS &rarr;</strong><a href="/" class="text-blue-400 font-medium" style="font-size:12px"> HTML | CSS | JS | PHP | C++ | NODE.JS | VUE.JS | BOOTSTRAP | GIT | GITHUB | UI-UX | CLEAN CODE | PATTERN | KANBAN | SCRUM </a> 
               </p>
               <p class="mt-6">
                 <a href="/">Autor</a>
                 <a
                   href="https://www.linkedin.com/in/leoscastro/"
                   target="_blank"
-                  class="font-medium text-purple-600 hover:text-indigo-900"
+                  class="font-medium text-yellow-600 hover:text-purple-400"
                 >
                   &rarr; Leonardo Silva Castro 🥇</a
                 >
@@ -304,65 +387,33 @@
     </div>
   </div>
 
-  <div class="banner-1 flex h-full items-center">
-    <div class="w-7/12 p-12">
-      <h2 class="text-purple-500 md:text-6xl text-2xl mb-5 ">
-        Vamos trabalhar juntos e deixar tudo comentado e limpo!
-      </h2>
-      <a class="none text-2xl text-white"
-        >🏆castroz.dev@gmail.com</a
-      >
+  <div class="baixo">
+
+    <div class="footer-type">
+      <h2>Vamos trabalhar juntos e deixar tudo comentado e limpo!</h2>
+      <a class="link-email">🏆castroz.dev@gmail.com</a>
     </div>
-    <div class="w-5/12 pr-28 footer">
-      <div class="flex flex-wrap justify-end gap-2">
-        <a href="https://github.com/leocastroz" target="_blank" class="bg-black-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-           
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M12 0C5.37 0 0 5.37 0 12C0 17.31 3.435 21.795 8.205 23.385C8.805 23.49 9.03 23.13 9.03 22.815C9.03 22.53 9.015 21.585 9.015 20.58C6 21.135 5.22 19.845 4.98 19.17C4.845 18.825 4.26 17.76 3.75 17.475C3.33 17.25 2.73 16.695 3.735 16.68C4.68 16.665 5.355 17.55 5.58 17.91C6.66 19.725 8.385 19.215 9.075 18.9C9.18 18.12 9.495 17.595 9.84 17.295C7.17 16.995 4.38 15.96 4.38 11.37C4.38 10.065 4.845 8.985 5.61 8.145C5.49 7.845 5.07 6.615 5.73 4.965C5.73 4.965 6.735 4.65 9.03 6.195C9.99 5.925 11.01 5.79 12.03 5.79C13.05 5.79 14.07 5.925 15.03 6.195C17.325 4.635 18.33 4.965 18.33 4.965C18.99 6.615 18.57 7.845 18.45 8.145C19.215 8.985 19.68 10.05 19.68 11.37C19.68 15.975 16.875 16.995 14.205 17.295C14.64 17.67 15.015 18.39 15.015 19.515C15.015 21.12 15 22.41 15 22.815C15 23.13 15.225 23.505 15.825 23.385C18.2073 22.581 20.2775 21.05 21.744 19.0076C23.2106 16.9653 23.9996 14.5144 24 12C24 5.37 18.63 0 12 0Z" fill="white"/>
-        </svg>
 
+    <div class="footer">
+      <div class="gap-2">
+        <a href="https://github.com/leocastroz" target="_blank">   
+        <img src="../src/assets/footer/github.svg" alt="facebook">
         </a>
 
-        <a href="https://vercel.com/surinoto" target="_blank" class="bg-black-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-            <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 0L24 21H0L12 0Z" fill="white"/>
-            </svg>
-       
+        <a href="https://vercel.com/surinoto" target="_blank">
+           <img src="../src/assets/footer/vercel.svg" alt="vercel">
         </a>
 
-
-        <a href="https://www.facebook.com/LeonardoCastro.Leoneell/" target="_blank" class="bg-black-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-           
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12.067C0 18.033 4.333 22.994 10 24V15.333H7V12H10V9.333C10 6.333 11.933 4.667 14.667 4.667C15.533 4.667 16.467 4.8 17.333 4.933V8H15.8C14.333 8 14 8.733 14 9.667V12H17.2L16.667 15.333H14V24C19.667 22.994 24 18.034 24 12.067C24 5.43 18.6 0 12 0C5.4 0 0 5.43 0 12.067Z" fill="white"/>
-        </svg>
-
-       
+        <a href="https://www.facebook.com/LeonardoCastro.Leoneell/" target="_blank">
+          <img src="../src/assets/footer/facebook.svg" alt="facebook">
         </a>
 
-
-        <a href="https://www.linkedin.com/in/leoscastro/" target="_blank" class="bg-black-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                  
-        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.7206e-07 1.838C2.7206e-07 1.35053 0.193646 0.883032 0.538338 0.53834C0.88303 0.193648 1.35053 2.45031e-06 1.838 2.45031e-06H20.16C20.4016 -0.000392101 20.6409 0.0468654 20.8641 0.139069C21.0874 0.231273 21.2903 0.366612 21.4612 0.537339C21.6322 0.708065 21.7677 0.910826 21.8602 1.13401C21.9526 1.3572 22.0001 1.59643 22 1.838V20.16C22.0003 20.4016 21.9529 20.6409 21.8606 20.8642C21.7683 21.0875 21.6328 21.2904 21.462 21.4613C21.2912 21.6322 21.0884 21.7678 20.8651 21.8602C20.6419 21.9526 20.4026 22.0001 20.161 22H1.838C1.59655 22 1.35746 21.9524 1.1344 21.86C0.911335 21.7676 0.708671 21.6321 0.537984 21.4613C0.367297 21.2905 0.231932 21.0878 0.139623 20.8647C0.0473133 20.6416 -0.000131096 20.4025 2.7206e-07 20.161V1.838ZM8.708 8.388H11.687V9.884C12.117 9.024 13.217 8.25 14.87 8.25C18.039 8.25 18.79 9.963 18.79 13.106V18.928H15.583V13.822C15.583 12.032 15.153 11.022 14.061 11.022C12.546 11.022 11.916 12.111 11.916 13.822V18.928H8.708V8.388ZM3.208 18.791H6.416V8.25H3.208V18.79V18.791ZM6.875 4.812C6.88105 5.08667 6.83217 5.35979 6.73124 5.61532C6.63031 5.87084 6.47935 6.10364 6.28723 6.30003C6.09511 6.49643 5.8657 6.65248 5.61246 6.75901C5.35921 6.86554 5.08724 6.92042 4.8125 6.92042C4.53776 6.92042 4.26579 6.86554 4.01255 6.75901C3.7593 6.65248 3.52989 6.49643 3.33777 6.30003C3.14565 6.10364 2.99469 5.87084 2.89376 5.61532C2.79283 5.35979 2.74395 5.08667 2.75 4.812C2.76187 4.27286 2.98439 3.75979 3.36989 3.38269C3.75539 3.00558 4.27322 2.79442 4.8125 2.79442C5.35178 2.79442 5.86961 3.00558 6.25512 3.38269C6.64062 3.75979 6.86313 4.27286 6.875 4.812V4.812Z" fill="white"/>
-        </svg>
-              
+        <a href="https://www.linkedin.com/in/leoscastro/" target="_blank">      
+          <img src="../src/assets/footer/linkedin.svg" alt="linkedin">
         </a>
 
-
-        <a href="https://api.whatsapp.com/send?phone=+5594992195331&text=Olá! Leonardo Castro" target="_blank" class="bg-black-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                    
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g clip-path="url(#clip0_160_8)">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.415 14.382C17.117 14.233 15.656 13.515 15.384 13.415C15.112 13.316 14.914 13.267 14.715 13.565C14.517 13.861 13.948 14.531 13.775 14.729C13.601 14.928 13.428 14.952 13.131 14.804C12.834 14.654 11.876 14.341 10.741 13.329C9.858 12.541 9.261 11.568 9.088 11.27C8.915 10.973 9.069 10.812 9.218 10.664C9.352 10.531 9.515 10.317 9.664 10.144C9.813 9.97004 9.862 9.84604 9.961 9.64704C10.061 9.44904 10.011 9.27604 9.936 9.12704C9.862 8.97804 9.268 7.51504 9.02 6.92004C8.779 6.34104 8.534 6.42004 8.352 6.41004C8.178 6.40204 7.98 6.40004 7.782 6.40004C7.584 6.40004 7.262 6.47404 6.99 6.77204C6.717 7.06904 5.95 7.78804 5.95 9.25104C5.95 10.713 7.014 12.126 7.163 12.325C7.312 12.523 9.258 15.525 12.239 16.812C12.949 17.118 13.502 17.301 13.933 17.437C14.645 17.664 15.293 17.632 15.805 17.555C16.375 17.47 17.563 16.836 17.811 16.142C18.058 15.448 18.058 14.853 17.984 14.729C17.91 14.605 17.712 14.531 17.414 14.382H17.415ZM11.993 21.785H11.989C10.2184 21.7854 8.48037 21.3094 6.957 20.407L6.597 20.193L2.855 21.175L3.854 17.527L3.619 17.153C2.62914 15.5774 2.10529 13.7538 2.108 11.893C2.11 6.44304 6.544 2.00904 11.997 2.00904C14.637 2.00904 17.119 3.03904 18.985 4.90704C19.9054 5.82362 20.6349 6.91361 21.1313 8.11394C21.6277 9.31427 21.8811 10.6011 21.877 11.9C21.875 17.35 17.441 21.785 11.993 21.785V21.785ZM20.405 3.48804C19.3032 2.37896 17.9922 1.49958 16.5481 0.900841C15.1039 0.302105 13.5553 -0.00407625 11.992 4.09775e-05C5.438 4.09775e-05 0.102 5.33504 0.1 11.892C0.096963 13.9788 0.644374 16.0294 1.687 17.837L0 24L6.304 22.346C8.04787 23.2962 10.0021 23.794 11.988 23.794H11.993C18.547 23.794 23.883 18.459 23.885 11.901C23.8898 10.3383 23.5848 8.79014 22.9874 7.34607C22.3901 5.90201 21.5124 4.59071 20.405 3.48804" fill="white"/>
-        </g>
-        <defs>
-        <clipPath id="clip0_160_8">
-        <rect width="24" height="24" fill="white"/>
-        </clipPath>
-        </defs>
-        </svg>
-       
+        <a href="https://api.whatsapp.com/send?phone=+5594992195331&text=Olá! Leonardo Castro" target="_blank">       
+          <img src="../src/assets/footer/whatsapp.svg" alt="whatsapp">
         </a>
 
 
