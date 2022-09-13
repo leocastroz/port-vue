@@ -10,38 +10,37 @@
 /* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
 e 10px de altura para a barra horizontal */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 12px;
   height: 0;
   }
    
   /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
   ::-webkit-scrollbar-track {
-    background:rgb(0, 0, 0);
+    background:#1d1d1d;
   }
    
   /* aqui é a alça da barra, que demonstra a altura que você está na página
   estou colocando uma cor azul clara nela*/
   ::-webkit-scrollbar-thumb {
-  background: #3bf391;
-  border: 2px solid #000000;
-  border-radius: 5px;
+  background: #686868;
+  border: 2px solid #686868;
+  border-radius: 2px;
   }
 
 ::selection {
   background: #00000054;
-  color: #00FF85;
+  color: #05f7ff;
 }
 
 
 /* MENU RESPONSIVO */
 
-
-
-
 nav div #checkbox-menu{
   position: absolute;
   opacity: 0;
 }
+
+/* MENU RESPONSIVO */
 
 nav div label{
   cursor: pointer;
@@ -52,42 +51,57 @@ nav div label{
   margin-top: -15px;
 }
 
+/* MENU RESPONSIVO */
+
 nav div label span{
   position: absolute;
   display: block;
   height: 3px;
   width: 100%;
   border-radius: 30px;
-  background-color: #7c54ff;
-  background-image: linear-gradient(45deg, #00FF85 0%, #7c54ff 100%);
+  background: -webkit-linear-gradient(#3939fc,#05f7ff);
   transition: 0.25s ease-in-out;
 }
+
+/* MENU RESPONSIVO */
 
 nav div label span:nth-child(1){
   top: 0;
 }
 
+/* MENU RESPONSIVO */
+
 nav div label span:nth-child(2){
   top: 8px;
 }
 
+/* MENU RESPONSIVO */
+
 nav div label span:nth-child(3){
   top: 16px;
 }
+
+/* MENU RESPONSIVO */
 
 nav div #checkbox-menu:checked + label span:nth-child(1){
   transform: rotate(-45deg);
   top: 8px;
 }
 
+/* MENU RESPONSIVO */
+
 nav div #checkbox-menu:checked + label span:nth-child(2){
   opacity: 0;
 }
+
+/* MENU RESPONSIVO */
 
 nav div #checkbox-menu:checked + label span:nth-child(3){
   transform: rotate(45deg);
   top: 8px;
 }
+
+/* MENU RESPONSIVO */
 
 .menu-box{
   width: 100%;
@@ -96,12 +110,13 @@ nav div #checkbox-menu:checked + label span:nth-child(3){
   padding-bottom: 10px;
 }
 
+/* MENU RESPONSIVO */
+
 .menu-box li a{
-  background: -webkit-linear-gradient(#cbaeff, #00FF85);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-weight: 700;
 }
+
+/* MENU RESPONSIVO */
 
 nav div img{
   margin-top: 15px;
@@ -109,81 +124,190 @@ nav div img{
 
 
 
+/* HABILIDADES PESSOAIS  */
+
+.linguagens{
+  padding-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  background-color: #141318;
+}
+
+.linguagens svg{
+  display: flex;
+  margin: 0 auto;
+}
+
+.linguagens h1{
+  background: -webkit-linear-gradient(#5639fc,#05f7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.container-box{
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+}
+
+.linguagens .item-01{
+  display: grid;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  color: #7c7c7c;
+}
+
+.linguagens .item-01 p{
+  padding: 5px 0 0 0;
+}
+
+.linguagens .item-01 svg{
+  margin: 0 auto;
+  display: flex;
+}
 
 
+@media (max-width: 860px){
+  .container-box{
+    grid-template-columns: auto auto;
+
+  }
+
+  .container-box .item-01{
+    padding: 20px 0px;
+  }
+}
 
 
+@media (max-width: 400px){
+  .container-box .item-01{
+    width: 120px;
+    font-size: 11px;
+    padding: 10px 0;
+  }
+}
 
 
-
-
-
-
-
-
+/* BANNER COM IMAGEM NOS ELEMENTOS */
 
 .banner-1 {
   @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
-  background-image: url('../src/assets/black_plate.gif');
+  background-image: url('https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/630cfcad5ba416ef573230f5_BG-Plan-0.png');
+  background-size: cover;
 }
+
+
+/* BANNER DE COR ESCURA NOS ELEMENTOS */
+
 
 .banner-2 {
   @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
-  background-color: #7c54ff;
-  background-image: linear-gradient(132deg, #00FF85 0%, #7c54ff 100%);
-
-  
+  background-color: #141318;
 }
+
+/* DOAR UM CAFÉ */
 
 .hello-button {
-  background-color: #7c54ff;
-  color: #302650;
-  font-family: 'Fugaz One', cursive;
+  background: -webkit-linear-gradient(#3939fc,#05f7ff);
+  color: #1f1f1f;
+  font-family: 'Poppins', sans-serif;
 }
+
+
+/* LINKS DO MENU */
+
 .menu-button {
   @apply 3xl:text-2xl 2xl:text-2xl xl:text-xl lg:text-xl md:text-xl ;
-  color: #aa91fc;
+  background: -webkit-linear-gradient(#39aefc,#05f7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 16px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
-  
-  
 }
+
+/* HOVER NOS LINKS DO MENU */
+
+.menu-button:hover{
+  background: -webkit-linear-gradient(#3939fc,#00f7ff );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* SOU LEONARDO CASTRO DESENVOLVEDOR FRONT-END E DESIGN UI-UX */
 
 .title-name h4{
   font-family: 'Fugaz One', cursive;
-  background: -webkit-linear-gradient(#00FF85, #5656FF);
+  font-size: 40px;
+  background: -webkit-linear-gradient(#5639fc,#05f7ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
+@media (max-width: 600px){
+  .title-name h4{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px){
+  .title-name h4{
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+/* TRABALHOS RECENTES */
 
 .heading5 {
   font-family: 'Fugaz One', cursive;
-  color: #242424;
+  color: #3b3b3b;
   @apply md:text-5xl text-xl;
 }
 
 
+/* ESCREVENDO MINHA HISTÓRIA */
+
 .heading3 {
   font-family: 'Fugaz One', cursive;
-  background: -webkit-linear-gradient(#00FF85, #7a32ff);
+  background: -webkit-linear-gradient(#5639fc,#05f7ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   @apply md:text-5xl text-xl;
 }
 
+
+/* ESCREVENDO MINHA HISTÓRIA - BANNER COMO IMAGEM DE FUNDO */
+
+.bg-me{
+  background-size: cover;
+  background-image: url('https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/630cfcad5ba416ef573230f5_BG-Plan-0.png');
+}
+
+
+/* TÍTULOS DOS PROJETOS DESENVOLVIDOS */
+
 .project-title{
+  
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
   font-weight: bold;
 }
 
-.project-title-1 {
-  font-family: 'Fugaz One', cursive;
-  color: #242424;
-  @apply  text-3xl md:text-4xl ;
-}
+
+
+/* PROJETOS CRIADOS PARA DEMOSTRAÇÃO */
 
 .card {
   @apply bg-white rounded-2xl md:flex place-items-center my-20 shadow-md;
@@ -192,23 +316,7 @@ nav div img{
   @apply md:w-1/2 md:rounded-r-2xl md:rounded-l-none rounded-b-2xl flex;
 }
 
-.footer a{
-  
-  margin: 0 3px;
-  padding: 6px;
-  background-color: #7c54ff;
-  background-image: linear-gradient(45deg, #00FF85 0%, #5724ff 100%);
-  transition-delay: 0.05s;
-}
-
-.footer a:hover{
-  background-color: #000;
-}
-
-.banner-2 .focus-job{
-  font-family: 'Fugaz One', cursive;
-  color: #242424;
-}
+/* BORDA NAS IMAGENS DOS PROJETOS */
 
 .card .card-image img{
   border-radius: 15px;
@@ -216,20 +324,150 @@ nav div img{
 
 
 
-.banner-1 h2{
-  font-size: 40px;
+/* MINHA VISÃO DE TRABALHO */
+
+.project-title-1 {
   font-family: 'Fugaz One', cursive;
-  background: -webkit-linear-gradient(#00FF85, #5656FF);
+  font-family: 'Fugaz One', cursive;
+  background: -webkit-linear-gradient(#5639fc,#05f7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @apply  text-3xl md:text-4xl ;
+}
+
+
+
+/* LINKS: GITHUB, VERCEL, FACEBOOK, LINKEDIN E WHATSAPP */
+
+.footer a{
+  
+  margin: 0 3px;
+  background-color: #7c54ff;
+  background: -webkit-linear-gradient(#5639fc,#05f7ff);
+  transition-delay: 0.05s;
+}
+
+/* ANIMAÇÃO DE SCALE NOS - LINKS */
+
+.footer .gap-2 a{
+  transition: 0.4s ease;
+}
+
+.footer .gap-2 a:hover{
+  transform: scale(1.3);
+}
+
+
+/* FOCUS ON WORK → #USER */
+
+.banner-2 .focus-job{
+  font-family: 'Fugaz One', cursive;
+  background: -webkit-linear-gradient(#5639fc,#05f7ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-@layer utilities {
-  .h-850 {
-    height: 900px;
+
+
+
+
+/* PARTE DO TÍTULO DO FOOTER */
+
+.footer-type{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🏆castroz.dev@gmail.com */
+
+.footer-type a{
+  padding: 10px 0;
+  color: #fff;
+}
+
+/* COR DO FOOTER DE BAIXO */
+
+.baixo{
+  background-color: #0d0c0f;
+  background-image: url('https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/6250a4d26317fe5ba17bd651_blur-nlw-2.png');
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* COR DO TÍTULO DO FOOTER */
+
+.baixo h2{
+  font-size: 40px;
+  font-family: 'Fugaz One', cursive;
+  background: -webkit-linear-gradient(#5639fc,#05f7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 600px;
+}
+
+
+.footer{
+  display: flex;
+}
+
+.footer a{
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.footer .gap-2 {
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+#about{
+  background-position: center center;
+
+  background-image: url('https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/6312703ef4c52f437be89ff2_BG-trilhas.jpg');
+}
+
+
+
+/* RESPONSIVIDADE DO FOOTER  */
+
+@media (max-width: 1000px){
+  .baixo{
+    display: grid;
+    
+  }
+
+  .baixo h2{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: grid;
+    font-size: 25px;
+    font-family: 'Fugaz One', cursive;
+    background: -webkit-linear-gradient(#5639fc,#05f7ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .baixo .link-email{
+    color: #fff;
+    text-align: center;
+  }
+
+  .footer{
+    display: flex;
+    width: 100%;
   }
 }
 
+
+
+
+/* RESPONSIVIDADE DO ASTRONAUTA */
 
 @media (max-width: 600px){
   .banner-2 .flutter{
@@ -238,11 +476,14 @@ nav div img{
   }
 }
 
+/* ASTRONAUTA */
 
 .banner-2 .flutter{
   width: 400px;
   animation: float 5s ease-in-out infinite;
 }
+
+/* EFEITO FLUTUANTE ASTRONAUTA */
 
 @keyframes float {
     0%, 100%{
