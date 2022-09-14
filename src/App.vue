@@ -3,7 +3,7 @@
 
     <!-- NavBar -->
 
-    <nav class="container px-6 mx-auto md:flex md:justify-between md:items-center">
+    <nav class="container px-6 mx-auto md:flex md:justify-between md:items-center" id="topinside" >
       <div class="flex items-center justify-between">
         <!-- LOGO SITE -->
         <div class="relative w-20 h-20">
@@ -32,8 +32,7 @@
 
       <ul
         :class="showMenu ? 'flex' : 'hidden'"
-        class="menu-box flex-col items-end mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
-      >
+        class="menu-box flex-col items-end mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0">
         <li class="menu-button"><a href="#maestrias" v-smooth-scroll></a></li>
         <li class="menu-button"><a href="#work" v-smooth-scroll>Trabalhos</a></li>
         <li class="menu-button"><a href="#testimonial" v-smooth-scroll>História</a></li>
@@ -357,11 +356,7 @@
   <div class="banner-2 md:flex items-center md:justify-evenly" id="about">
   
 
-    <img
-      class="flutter"
-      src="https://user-images.githubusercontent.com/72839343/185977454-ab183161-6f52-45d5-9011-591d13b24d16.png"
-      alt="user image"
-    />
+    <img class="flutter" src="https://user-images.githubusercontent.com/72839343/185977454-ab183161-6f52-45d5-9011-591d13b24d16.png" alt="user image"/>
    
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-2/2">
       <h4 class="project-title-1 item">Minha visão de trabalho?</h4>
@@ -378,7 +373,7 @@
         não darei conta de uma tarefa.
         <br>
         <br>
-        Sempre gosto de passar minha visão, dar minha opnião sobre o que estamos 
+        Sempre gosto de passar minha visão, dar minha opinião sobre o que estamos 
         construindo e qual seria a melhor forma de encontrarmos a solução. 
       </p>
       <button class="focus-job  text-1xl ">
@@ -415,15 +410,15 @@
         <a href="https://api.whatsapp.com/send?phone=+5594992195331&text=Olá! Leonardo Castro" target="_blank">       
           <img src="../src/assets/footer/whatsapp.svg" alt="whatsapp">
         </a>
-
-
-    
-        
-        
       </div>
     </div>
+    <div class="topo-site">
+        <a href="#topinside" v-smooth-scroll><img src="../src/assets/footer/arrow.svg"></a>
+      </div>
   </div>
 </template>
+
+
 <script>
   export default {
     data() {
